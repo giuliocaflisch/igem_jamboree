@@ -3,32 +3,32 @@
 /* TASA Orbiter */
 @font-face {
     font-family: "TASA Orbiter";
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/tasa-orbiter/tasaorbiterdeck-regular.otf);
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/tasa-orbiter/tasaorbiterdeck-regular.otf) format('opentype');
+    src: url('fonts/tasa-orbiter/tasaorbiterdeck-regular.otf');
+    src: url('fonts/tasa-orbiter/tasaorbiterdeck-regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "TASA Orbiter";
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/tasa-orbiter/tasaorbiterdeck-medium.otf);
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/tasa-orbiter/tasaorbiterdeck-medium.otf) format('opentype');
+    src: url('fonts/tasa-orbiter/tasaorbiterdeck-medium.otf');
+    src: url('fonts/tasa-orbiter/tasaorbiterdeck-medium.otf') format('opentype');
     font-weight: medium;
     font-style: normal;
 }
 
 @font-face {
     font-family: "TASA Orbiter";
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/tasa-orbiter/tasaorbiterdeck-semibold.otf);
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/tasa-orbiter/tasaorbiterdeck-semibold.otf) format('opentype');
+    src: url('fonts/tasa-orbiter/tasaorbiterdeck-semibold.otf');
+    src: url('fonts/tasa-orbiter/tasaorbiterdeck-semibold.otf') format('opentype');
     font-weight: 550;
     font-style: normal;
 }
 
 @font-face {
     font-family: "TASA Orbiter";
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/tasa-orbiter/tasaorbiterdeck-bold.otf);
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/tasa-orbiter/tasaorbiterdeck-bold.otf) format('opentype');
+    src: url('teams/4662/wiki/fonts/tasa-orbiter/tasaorbiterdeck-bold.otf');
+    src: url('fonts/tasa-orbiter/tasaorbiterdeck-bold.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
@@ -36,48 +36,48 @@
 /* Oak Sans */
 @font-face {
     font-family: "Oak Sans";
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/oaksans/oaksans-regular.ttf);
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/oaksans/oaksans-regular.ttf) format('truetype');
+    src: url('fonts/oaksans/oaksans-regular.ttf');
+    src: url('fonts/oaksans/oaksans-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Oak Sans";
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/oaksans/oaksans-medium.ttf);
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/oaksans/oaksans-medium.ttf) format('truetype');
+    src: url('fonts/oaksans/oaksans-medium.ttf');
+    src: url('fonts/oaksans/oaksans-medium.ttf') format('truetype');
     font-weight: medium;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Oak Sans";
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/oaksans/oaksans-bold.ttf);
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/oaksans/oaksans-bold.ttf) format('truetype');
+    src: url('fonts/oaksans/oaksans-bold.ttf');
+    src: url('fonts/oaksans/oaksans-bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Oak Sans";
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/oaksans/oaksans-italic.ttf);
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/oaksans/oaksans-italic.ttf) format('truetype');
+    src: url('fonts/oaksans/oaksans-italic.ttf');
+    src: url('fonts/oaksans/oaksans-italic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Oak Sans";
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/oaksans/oaksans-bolditalic.ttf);
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/oaksans/oaksans-bolditalic.ttf) format('truetype');
+    src: url('fonts/oaksans/oaksans-bolditalic.ttf');
+    src: url('fonts/oaksans/oaksans-bolditalic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Oak Sans";
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/oaksans/oaksans-black.ttf);
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/oaksans/oaksans-black.ttf) format('truetype');
+    src: url('fonts/oaksans/oaksans-black.ttf');
+    src: url('fonts/oaksans/oaksans-black.ttf') format('truetype');
     font-weight: 850;
     font-style: normal;
 }
@@ -85,8 +85,8 @@
 /* Diphylleia */
 @font-face {
     font-family: "Diphylleia";
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/diphylleia/diphylleia-regular.otf);
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/diphylleia/diphylleia-regular.otf) format('opentype');
+    src: url('fonts/diphylleia/diphylleia-regular.otf');
+    src: url('fonts/diphylleia/diphylleia-regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -94,16 +94,16 @@
 /* Iosevka */
 @font-face {
     font-family: "Iosevka";
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/iosevka/iosevka-regular.ttf);
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/iosevka/iosevka-regular.ttf) format('truetype');
+    src: url('fonts/iosevka/iosevka-regular.ttf');
+    src: url('fonts/iosevka/iosevka-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Iosevka";
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/iosevka/iosevka-bold.ttf);
-    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/iosevka/iosevka-bold.ttf) format('truetype');
+    src: url('fonts/iosevka/iosevka-bold.ttf');
+    src: url('fonts/iosevka/iosevka-bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }

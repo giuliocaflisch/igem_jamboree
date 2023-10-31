@@ -33,7 +33,73 @@
   </head>
 
   <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-fluid">
 
+        <!---- TEAM LOGO ---->
+        <a href="{{ url_for('pages', page='home') }}">
+          <img src="https://static.igem.wiki/teams/4662/wiki/logo.png" class="corner-logo" height="96" width="96" alt="Logo">
+        </a>
+    
+        <!---- TEAM NAME ---->
+        <a class="navbar-brand" href="{{ url_for('pages', page='home') }}">
+          UZurich
+        </a>
+    
+        <!---- SMALL SCREEN MENU ICON ---->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto left-aligned">
+    
+            <!---- HOME ---->
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('home') }}">Home</a>
+            </li>
+    
+            <!---- TEAM ---->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="{{ url_for('pages', page='team') }}" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Team
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="{{ url_for('pages', page='team') }}">Members</a></li>
+                <li><a class="dropdown-item" href="{{ url_for('pages', page='attributions') }}">Attributions</a></li>
+              </ul>
+            </li>
+    
+            <!---- PROJECT ---->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Project
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="{{ url_for('pages', page='contribution') }}">Contribution</a></li>
+                <li><a class="dropdown-item" href="{{ url_for('pages', page='description') }}">Description</a></li>
+                <li><a class="dropdown-item" href="{{ url_for('pages', page='engineering') }}">Engineering</a></li>
+                <li><a class="dropdown-item" href="{{ url_for('pages', page='experiments') }}">Experiments</a></li>
+                <li><a class="dropdown-item" href="{{ url_for('pages', page='notebook') }}">Notebook</a></li>
+                <li><a class="dropdown-item" href="{{ url_for('pages', page='results') }}">Results</a></li>
+              </ul>
+            </li>
+    
+            <!---- SAFETY ---->
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('pages', page='safety') }}">Safety</a>
+            </li>
+    
+            <!---- HUMAN PRACTICES ---->
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('pages', page='human-practices') }}">Human Practices</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
     <!-- Bootstrap Bundle with Popper -->
     <script src="static/structures/bootstrap/bootstrap.bundle.min.js"></script>
 

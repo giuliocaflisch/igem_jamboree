@@ -1,0 +1,678 @@
+/* -=-=-=-=-=-=-=-= FONTS =-=-=-=-=-=-=-=- */
+
+/* TASA Orbiter */
+@font-face {
+    font-family: "TASA Orbiter";
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/tasa-orbiter/tasaorbiterdeck-regular.otf);
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/tasa-orbiter/tasaorbiterdeck-regular.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TASA Orbiter";
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/tasa-orbiter/tasaorbiterdeck-medium.otf);
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/tasa-orbiter/tasaorbiterdeck-medium.otf) format('opentype');
+    font-weight: medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TASA Orbiter";
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/tasa-orbiter/tasaorbiterdeck-semibold.otf);
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/tasa-orbiter/tasaorbiterdeck-semibold.otf) format('opentype');
+    font-weight: 550;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TASA Orbiter";
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/tasa-orbiter/tasaorbiterdeck-bold.otf);
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/tasa-orbiter/tasaorbiterdeck-bold.otf) format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Oak Sans */
+@font-face {
+    font-family: "Oak Sans";
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/oaksans/oaksans-regular.ttf);
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/oaksans/oaksans-regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Oak Sans";
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/oaksans/oaksans-medium.ttf);
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/oaksans/oaksans-medium.ttf) format('truetype');
+    font-weight: medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Oak Sans";
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/oaksans/oaksans-bold.ttf);
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/oaksans/oaksans-bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Oak Sans";
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/oaksans/oaksans-italic.ttf);
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/oaksans/oaksans-italic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Oak Sans";
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/oaksans/oaksans-bolditalic.ttf);
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/oaksans/oaksans-bolditalic.ttf) format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Oak Sans";
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/oaksans/oaksans-black.ttf);
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/oaksans/oaksans-black.ttf) format('truetype');
+    font-weight: 850;
+    font-style: normal;
+}
+
+/* Diphylleia */
+@font-face {
+    font-family: "Diphylleia";
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/diphylleia/diphylleia-regular.otf);
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/diphylleia/diphylleia-regular.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Iosevka */
+@font-face {
+    font-family: "Iosevka";
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/iosevka/iosevka-regular.ttf);
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/iosevka/iosevka-regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Iosevka";
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/iosevka/iosevka-bold.ttf);
+    src: url(https://static.igem.wiki/teams/4662/wiki/fonts/iosevka/iosevka-bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root {
+    /* -=-=-=-=-=-=-=-= COLORS =-=-=-=-=-=-=-=- */
+
+    /* orange colors */
+    --light-orange: rgb(255, 179, 71);
+    --mid-orange:   rgb(255, 148, 71);
+
+    /* red colors */
+    --light-red: rgb(240, 48, 60);
+    --mid-red:   rgb(189,54,60);
+    --dark-red:  rgb(132,22,51);
+
+    /* blue colors */
+    --light-blue:     rgb(235, 249, 255);
+    --mid-light-blue: rgb(218, 249, 252);
+    --mid-blue:       rgb(207, 236, 240);
+    --mid-dark-blue:  rgb(176, 219, 225);
+    --dark-blue:      rgb(156, 205, 210);
+
+    /* violet colors */
+    --light-violet:     rgb(239, 224, 255);
+    --mid-light-violet: rgb(234, 213, 252);
+    --mid-violet:       rgb(220, 200, 237);
+    --mid-dark-violet:  rgb(195, 180, 209);
+    --dark-violet:      rgb(186, 180, 218);
+
+    /* rose colors */
+    --light-rose:     rgb(242, 189, 229);
+    --mid-light-rose: rgb(223, 137, 184);
+    --mid-rose:       rgb(201, 97, 160);
+    --mid-dark-rose:  rgb(141, 65, 116);
+    --dark-rose:      rgb(102, 45, 75);
+
+    /* green colors */
+    --light-green:     rgb(208, 245, 206);
+    --mid-light-green: rgb(165, 218, 142);
+    --mid-green:       rgb(141, 194, 112);
+    --mid-dark-green:  rgb(91, 133, 65);
+    --dark-green:      rgb(59, 87, 37);
+
+    /* yellow colors */
+    --light-yellow:     rgb(249, 250, 186);
+    --mid-light-yellow: rgb(248, 245, 148);
+    --mid-yellow:       rgb(243, 226, 71);
+    --mid-dark-yellow:  rgb(231, 198, 49);
+    --dark-yellow:      rgb(201, 155, 18);
+
+    /* grey colors */
+    --mid-white:        white;
+    --mid-grey:         rgb(147,149,151);
+    --mid-black:        black;
+
+
+    --components-color: var(--mid-dark-violet);
+
+    /* -=-=-=-=-=-=-=-= SIZES =-=-=-=-=-=-=-=- */
+
+    --small:     11px;
+    --mid-small: 14px;
+    --mid:       16px;
+    --mid-big:   18px;
+    --big:       21px;
+
+    --half-mid:       8px;
+
+    --double-mid:    32px;
+    --triple-mid:    48px;
+    --quadruple-mid: 64px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -=-=-=-=-=-=-=-=- STATIC MODULES =-=-=-=-=-=-=-=- */
+
+/* Quote */
+.quote {
+    font-family: "Diphylleia";
+}
+
+/* Code */
+.code {
+    font-family: "Iosevka";
+}
+
+/* Comment */
+.comment {
+    font-size: var(--mid-small);
+}
+
+/* Title */
+.title {
+    font-family: "TASA Orbiter";
+}
+
+.wikipedia {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: var(--big);
+}
+
+
+
+
+/* Special */
+.special {
+    border-radius: var(--mid-small);
+    padding:       var(--mid);
+    background-color: var(--mid-light-yellow) !important;
+}
+
+/* Summary */
+.summary {
+    border-radius: var(--mid-small);
+    padding:       5px;
+    background-color: var(--light-rose) !important;
+}
+
+/* Sources */
+.sources {
+    border-radius: var(--mid-small);
+    padding: var(--small);
+    padding-left: ver(--big);
+    background-color: var(--mid-light-green) !important;
+}
+
+.sources a {
+    color: var(--mid-black);
+    text-decoration: none;
+}
+
+.sources a:hover {
+    color: var(--mid-black);
+    text-decoration: underline;
+}
+
+
+
+
+/* Shadow */
+.shadow {
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.25)!important;
+}
+
+/* Card */
+.card-img-top {
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -=-=-=-=-=-=-=-= DYNAMIC MODULES =-=-=-=-=-=-=-=- */
+
+/* Sticky Menu */
+.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky; top: 100px;
+}
+
+.sticky a {
+    text-decoration: none;
+    font-size: var(--mid-small);
+    color: var(--mid-rose);
+    border-width: 4px;
+    display: block;
+}
+
+.sticky a i {
+    color: var(--dark-rose);
+    font-size: 24px;
+}
+
+.sticky a:hover {
+    color: var(--dark-rose);
+}
+
+/* Jump Marker */
+.jump-marker {
+    position: absolute;
+    margin-top: -204px;
+}
+
+/* Subimage Selector */
+.subimage {
+    background-color: transparent;
+    
+    border: 5px inset transparent;
+    border-radius: 5px;
+
+    cursor:pointer;
+}
+.subimage:hover {
+    border: 5px inset var(--mid-grey);
+}
+.selector {
+    position: relative;
+    width: 100%;
+}
+.selector img{
+    width: 100%;
+    height: auto;
+}
+.selector .subimage {
+    position: absolute;
+
+    width: 11%; height: 16%; 
+}
+
+/* Blob */
+.blob {
+    padding : var(--triple-mid);
+
+    background: var(--mid-light-yellow);
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+}
+
+.animation0 {
+    animation-name: blobby0;
+}
+.animation1 {
+    animation-name: blobby1;
+}
+@keyframes blobby0 {
+    0% {
+        transform: rotate(0deg);
+        border-radius: 94% 31% 30% 67% / 60% 40% 50% 35%;
+    }
+    100% {
+        transform: rotate(5deg);
+        border-radius: 40% 60% 60% 40% / 80% 30% 70% 55%;
+    }
+}
+@keyframes blobby1 {
+    0% {
+        transform: rotate(0deg);
+        border-radius: 94% 31% 30% 67% / 60% 40% 50% 35%;
+    }
+    100% {
+        transform: rotate(-5deg);
+        border-radius: 40% 60% 60% 40% / 80% 30% 70% 55%;
+    }
+}
+
+/* Sliding Overlay */
+.sliding {
+    position: relative;
+    width: 100%;
+    background-color: var(--mid-orange);
+    padding-top:    var(--triple-mid);
+    padding-bottom: var(--triple-mid);
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left:   0;
+    right:  0;
+    background-color: var(--light-orange);
+    overflow: hidden;
+    width:  0;
+    height: 100%;
+    transition: 0.5s ease;
+}
+.sliding:hover .overlay {
+    width: 100%;
+}
+.overimpression {
+    white-space: nowrap;
+    color: var(--mid-white);
+    position: absolute;
+    overflow: hidden;
+    font-size: var(--big);
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/* Todefine */
+.todefine {
+    position: relative;
+    display: inline-block;
+
+    cursor: pointer;
+    border: 0 solid transparent;
+    border-bottom: 1px dotted black;
+    padding: 0;
+    background-color: transparent;
+}
+
+/* Timeline */
+.main-timeline {
+    position: relative;
+}
+.main-timeline::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    background-color: var(--mid-grey);
+    top:    0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+.timeline {
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+.timeline::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -13px;
+    background-color: var(--mid-grey);
+    border: 5px solid var(--mid-yellow);
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.left {
+    padding: 0px 40px 20px 0px;
+    left: 0;
+}
+.right {
+    padding: 0px 0px 20px 40px;
+    left: 50%;
+}
+.left::before {
+    content: " ";
+    position: absolute;
+    top: 18px;
+    z-index: 1;
+    right: 30px;
+    border: medium solid var(--mid-white);
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+.right::before {
+    content: " ";
+    position: absolute;
+    top: 18px;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+.right::after {
+    left: -12px;
+}
+@media screen and (max-width: 600px) {
+    .main-timeline::after {
+      left: 31px;
+    }
+
+    .timeline {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+
+    .timeline::before {
+      left: 60px;
+      border: medium solid white;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+    }
+
+    .left::after,
+    .right::after {
+      left: 18px;
+    }
+  
+    .left::before {
+      right: auto;
+    }
+
+    .right {
+      left: 0%;
+    }
+}
+.left h3 {
+    text-decoration: underline;
+    text-decoration-color: var(--mid-blue);
+}
+.right h3 {
+    text-decoration: underline;
+    text-decoration-color: var(--mid-rose);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -=-=-=-=-=-=-=-= STRUCTURAL =-=-=-=-=-=-=-=- */
+
+body {
+    padding-top:  54px; padding-bottom: 0px;
+    padding-left: 0px; padding-right: 0px;
+
+    font-family: "Oak Sans";
+    font-size: var(--mid);
+    
+    width: 100%;
+    height: 100%;
+
+    margin: 0px;
+    overflow-x: hidden; 
+}
+
+p {
+    text-align: justify;
+}
+
+.left-aligned { margin-left: auto; }
+
+.bg-hero-header h1 {
+    color: black;
+    font-size: 84px;
+}
+
+.bg-hero-header h2 {
+    color: black;
+    font-size: 36px;
+}
+
+@media screen and (max-width: 768px){
+    .bg-hero-header h1 {font-size: 72px}
+    .bg-hero-header h2 {font-size: 32px}
+}
+
+.corner-logo {
+    display: inline-block;
+    background-color: var(--components-color) !important;
+    position: absolute; left: 0; top: 0px;
+    border-style: solid; border-color: var(--components-color); border-width: 6px; border-radius: 48px;
+}
+
+.navbar {
+    background-color: var(--components-color) !important;
+}
+.navbar-brand { 
+    position: absolute; left: 100px; top: .3125rem;
+}
+.footer {
+    background-color: var(--components-color) !important;
+}
+
+.p .i { display: inline-block; }
+
+/* CALLOUT */
+.bd-callout { padding:1.25rem; margin-top:1.25rem; margin-bottom:1.25rem; border:1px solid #e9ecef; border-left-width:.25rem; border-radius:.25rem }
+.bd-callout h4 { margin-bottom:.25rem }
+.bd-callout p:last-child { margin-bottom:0 }
+.bd-callout code { border-radius:.25rem }
+.bd-callout+.bd-callout { margin-top:-.25rem }
+.bd-callout-info { border-left-color:#5bc0de }
+.bd-callout-warning { border-left-color:#f0ad4e }
+.bd-callout-danger { border-left-color:#d9534f }
+
+/* footer */
+footer a { color: white; font-weight: bold; text-decoration: none; }
+footer a:hover { color: white; text-decoration: underline; }
+footer i:hover { font-size: var(--big); }
+

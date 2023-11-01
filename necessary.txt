@@ -1,2 +1,0 @@
-if time equals 12:15
-delete everything
